@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dungeon crawler</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <div id="navbar">
+                    <li id="health"> Health</li>
+                    <li id="atknav"> Attack</li>
+                    <li id="defnav"> Defense</li>
+                    <li id="mana"> Mana</li>
+                    <li id="money"> Money</li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+   <div id="select-screen" class="flex"> 
+        <h1>Select a class</h1>
+           <button id="knight" onClick="clickFunctionK()"> Knight </button>
+           <button id="mage" onClick="clickFunctionM()"> Mage </button>
+           <button id="rouge" onClick="clickFunctionR()"> Rouge </button>
+   </div>
+   <div id="enemy" class="flex">
+        <h1>Grey Ogre</h1>
+           <button id="atk" onClick="clickFunction1()"> Attack </button>
+           <button id="def" onClick="clickFunction1()"> Defend </button>  
+   </div>
+   <div id="chest" class="flex">
+         <h1>Pitiful Crate</h1>
+            <button id="gimmie" onClick="clickFunction1()"> Gimmie! </button> 
+   </div>
+   <div id="store" class="flex" onClick="clickFunction1()">
+         <h1>Legless Merchant</h1>
+            <button id="shop" onClick="clickFunction1()"> Shop </button>
+            <button id="leave-shop" onClick="clickFunction1()"> Leave </button>
+   </div>
+   <div id="fountain" class="flex">
+        <h1>Fountain of Blood</h1>
+            <button id="drink" onClick="clickFunction1()"> Drink </button>
+            <button id="leave" onClick="clickFunction1()"> Leave </button>
+   </div>
+   <div id="npc" class="flex">
+        <h1>Weary Knight</h1>
+            <button id="speak" onClick="clickFunction1()"> Chat </button>
+   </div>
+   <div id="item" class="flex">
+        <h1>Dull Dirk</h1>
+            <button id="grab" onClick="clickFunction1()"> Retrieve </button>
+   </div>
+ <script src="game.js"></script>
+</body>
+</html>

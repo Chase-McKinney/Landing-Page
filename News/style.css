@@ -1,0 +1,19 @@
+h1 {
+    background-color: tomato;
+    color: white;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: groove black 5px;
+}
+
+h3 {
+    border: 5px solid blue; 
+    color: white;
+ }
+
+body {
+    background: rgba(0, 0, 255, 0.555);
+
+    
+    
+}

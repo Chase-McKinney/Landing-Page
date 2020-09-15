@@ -1,0 +1,93 @@
+/* Global Stylpes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+html {
+    font-size:  62.5%;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+ }
+
+ li {
+     font-size: 2.4rem;
+ }
+
+ a{
+     color: #55efc4;
+     text-decoration: none;
+ }
+
+ button{
+     padding: 2rem 6rem;
+     font-size: 1.8rem;
+     margin-bottom: 18rem;
+     background: #27ae60;
+     color: #f1c40f ;
+     border: none;
+     cursor: pointer;
+     transition: all 0.5s ease-in-out;
+     border-radius: 1rem;
+     align-items: center flex-start;
+ }
+
+ button:hover {
+     background-color: #f1c40f;
+     color: #27ae60 ;
+ }
+
+ /* Headings */
+
+ header {
+     background-color: #27ae60;
+     color:#f1c40f;
+ }
+
+ /* Nav */
+ nav {
+     min-height: 10vh;
+     display: flex;
+     width: 90%;
+     padding: 3rem;
+     margin: auto;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+ nav ul {
+     display: flex;
+     flex:  1 1 40rem;
+     justify-content: space-around;
+     align-items: center;
+     list-style: none;
+ }
+
+ #logo {
+     flex: 2 1 40rem;
+     font-family: 'Six Caps', sans-serif;
+ }
+
+ #hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("images/Canna.jpg");
+    min-height: 84vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
